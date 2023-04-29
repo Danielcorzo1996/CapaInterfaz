@@ -31,12 +31,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.sipgaa = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtDocumento = new System.Windows.Forms.TextBox();
             this.txtClave = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
+            this.btnIngresar = new FontAwesome.Sharp.IconButton();
+            this.btnCancelar = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,12 +75,12 @@
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
             // 
-            // txtUsuario
+            // txtDocumento
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(326, 81);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(173, 20);
-            this.txtUsuario.TabIndex = 3;
+            this.txtDocumento.Location = new System.Drawing.Point(326, 81);
+            this.txtDocumento.Name = "txtDocumento";
+            this.txtDocumento.Size = new System.Drawing.Size(173, 20);
+            this.txtDocumento.TabIndex = 3;
             // 
             // txtClave
             // 
@@ -96,9 +96,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(322, 58);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 20);
+            this.label2.Size = new System.Drawing.Size(100, 20);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Usuario: ";
+            this.label2.Text = "Documento: ";
             // 
             // label3
             // 
@@ -110,55 +110,55 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Contraseña: ";
             // 
-            // iconButton1
+            // btnIngresar
             // 
-            this.iconButton1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 21;
-            this.iconButton1.Location = new System.Drawing.Point(326, 197);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(173, 36);
-            this.iconButton1.TabIndex = 7;
-            this.iconButton1.Text = "INGRESAR";
-            this.iconButton1.UseVisualStyleBackColor = false;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            this.btnIngresar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnIngresar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnIngresar.IconColor = System.Drawing.Color.Black;
+            this.btnIngresar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnIngresar.IconSize = 21;
+            this.btnIngresar.Location = new System.Drawing.Point(326, 197);
+            this.btnIngresar.Name = "btnIngresar";
+            this.btnIngresar.Size = new System.Drawing.Size(173, 36);
+            this.btnIngresar.TabIndex = 7;
+            this.btnIngresar.Text = "INGRESAR";
+            this.btnIngresar.UseVisualStyleBackColor = false;
+            this.btnIngresar.Click += new System.EventHandler(this.iconButton1_Click);
             // 
-            // iconButton2
+            // btnCancelar
             // 
-            this.iconButton2.BackColor = System.Drawing.Color.Red;
-            this.iconButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton2.IconSize = 21;
-            this.iconButton2.Location = new System.Drawing.Point(326, 249);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Size = new System.Drawing.Size(173, 36);
-            this.iconButton2.TabIndex = 8;
-            this.iconButton2.Text = "CANCELAR";
-            this.iconButton2.UseVisualStyleBackColor = false;
-            this.iconButton2.Click += new System.EventHandler(this.iconButton2_Click);
+            this.btnCancelar.BackColor = System.Drawing.Color.Red;
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnCancelar.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnCancelar.IconColor = System.Drawing.Color.Black;
+            this.btnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnCancelar.IconSize = 21;
+            this.btnCancelar.Location = new System.Drawing.Point(326, 249);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(173, 36);
+            this.btnCancelar.TabIndex = 8;
+            this.btnCancelar.Text = "CANCELAR";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.iconButton2_Click);
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(546, 319);
-            this.Controls.Add(this.iconButton2);
-            this.Controls.Add(this.iconButton1);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtClave);
-            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtDocumento);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.sipgaa);
             this.Controls.Add(this.label1);
@@ -177,11 +177,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label sipgaa;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtDocumento;
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private FontAwesome.Sharp.IconButton iconButton2;
+        private FontAwesome.Sharp.IconButton btnIngresar;
+        private FontAwesome.Sharp.IconButton btnCancelar;
     }
 }
